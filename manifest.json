@@ -1,0 +1,11 @@
+{
+  "ports": [
+    {
+      "port": 5173,
+      "pathPrefix": "/app",
+      "public": true
+    }
+  ],
+  "setup": "cd ~/clawd/workspace/projects/starter && npm install --include=dev",
+  "start": "cd ~/clawd/workspace/projects/starter && npx vite --host 0.0.0.0"
+}
