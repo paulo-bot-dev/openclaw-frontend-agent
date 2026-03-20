@@ -9,7 +9,7 @@ export default defineConfig({
   base: '/app',
   server: {
     host: '0.0.0.0',
-    allowedHosts: [agentHost],
+    allowedHosts: [agentHost, 'pinclaw.devpinata.cloud'],
     hmr: {
       protocol: 'wss',
       host: agentHost,
